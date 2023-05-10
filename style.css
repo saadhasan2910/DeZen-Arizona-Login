@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: #4627C7;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sub-container {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-section {
+    background-color: white;
+    box-shadow: 0px 2px 5px #CCCCFF;
+    border-radius: 15px;
+
+    width: 400px;
+    height: 500px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.first-heading {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 195%;
+
+    color: #3D3E9E;
+
+    margin-top: 25px;
+}
+
+.login-heading {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #100B61;
+
+    margin-top: 5px;
+}
+
+.email-section,
+.password-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+
+    margin-left: 22px;
+}
+
+.email-section {
+    margin-top: 30px;
+}
+
+.email-section input,
+.password-section input {
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+    width: 350px;
+    height: 32px;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #D9D9D9;
+
+    padding-left: 15px;
+}
+
+.email-section label,
+.password-section label {
+    color: #808198;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.checkbox-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    margin: 21px;
+}
+
+.checkbox-section input {
+    background: #8F8F8F;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.checkbox-section label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.forget-section {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #4627C7;
+}
+
+.login-btn {
+    width: 350px;
+    height: 32px;
+
+    background: #4627C7;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+.last-line {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 15px;
+
+    color: #4A2CC9;
+}
+
+.bottom-line {
+    border-top: 1px solid black;
+    width: 400px;
+}
